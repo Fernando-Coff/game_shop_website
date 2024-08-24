@@ -199,6 +199,10 @@ body{
     font-size: 1rem;
 }
 
+.input-item input:focus{
+    outline: none;
+}
+
 .input-text textarea{
     width: 30rem;
     height: 15rem;
@@ -209,6 +213,10 @@ body{
     color: #fafafa;
     font-size: 1rem;
     resize: none;
+}
+
+.input-text textarea:focus{
+    outline: none;
 }
 
 .input-btn button{
